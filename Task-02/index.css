@@ -1,1 +1,63 @@
-
+.tweet {
+    background-color: #fff;
+    border: 1px solid #cfd9de;
+    border-radius: 16px;
+    padding: 12px;
+    max-width: 425px;
+  }
+  
+  .tweet-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .thumbnail {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+  }
+  
+  .tweet-info {
+    margin-left: 12px;
+  }
+  
+  .name {
+    color: #000;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .metadata {
+    color: #71767b;
+    font-family: sans-serif;
+    font-size: 15px;
+  }
+  
+  .tweet-message {
+    color: #0f1419;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+  }
+  
+  .tweet-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .icon {
+    fill: #536471;
+    width: 16px;
+    height: 16px;
+    margin-left: 16px;
+    margin-left: 1px;
+  }
+  
+  .action-count {
+    color: #536471;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-left: 10px;
+  }
